@@ -11,7 +11,7 @@ import nginxparser
 DEFAULT_NGINX = '/etc/nginx/sites-enabled/default.conf'
 
 # apache tools
-import ApacheConfParser from apache_conf_parser
+from apache_conf_parser import ApacheConfParser
 DEFAULT_VHOST = '/etc/apache2/sites-available/000-default.conf'
 
 # take in Nginx or Apache path
