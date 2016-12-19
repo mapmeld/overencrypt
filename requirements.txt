@@ -1,2 +1,0 @@
-apache_conf_parser>=1.0.1
-pyparsing>=2.1.10

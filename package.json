@@ -1,15 +1,15 @@
 {
   "name": "overencrypt",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Audit and recommend security changes to your LetsEncrypt SSL/TLS configuration",
-  "main": "index.js",
+  "main": "overencrypt.js",
   "bin": {
-    "overencrypt": "index.js"
+    "overencrypt": "cli.js"
   },
   "dependencies": {
+    "apacheconf": "0.0.5",
     "commander": "^2.9.0",
-    "nginx-conf": "^1.3.0",
-    "nginx-conf-parser": "^0.1.1"
+    "nginx-conf": "^1.3.0"
   },
   "devDependencies": {},
   "scripts": {
