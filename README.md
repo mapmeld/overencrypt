@@ -1,5 +1,7 @@
 # OverEncrypt
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mapmeld/overencrypt.svg)](https://greenkeeper.io/)
+
 How to protect your Apache or Nginx site with HTTPS, LetsEncrypt, and OverEncrypt:
 
 1. Register your TLS certificate with <a href="https://letsencrypt.org">LetsEncrypt</a>
